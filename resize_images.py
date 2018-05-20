@@ -20,7 +20,7 @@ def resize(img_path):
 
 
 def main():
-    images_path = Path('images')
+    images_path = Path('load')
     cropped_path = Path('cropped')
     if images_path.exists():
 

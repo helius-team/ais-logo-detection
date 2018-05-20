@@ -30,7 +30,12 @@ FLAGS = flags.FLAGS
 def class_text_to_int(row_label):
     if row_label == 'AIS':
         return 1
+    elif row_label == 'person':
+        return 2
+    elif row_label == 'car':
+        return 3
     else:
+        print("row_label: ", row_label)
         None
 
 
